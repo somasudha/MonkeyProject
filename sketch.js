@@ -73,7 +73,7 @@ function draw() {
       monkey.velocityY = -12;
     }
 
-    if(ObstaclesGroup.isTouching(monkey)){
+    if(obstaclesGroup.isTouching(monkey)){
       score = score - 2;
       monkey.scale = 0.1;
     }
